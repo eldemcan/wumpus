@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Wumpus by eldemcan</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Wumpus</h1>
+        <p>AI agent created for hunt the wumpus game </p>
+
+        <p class="view"><a href="https://github.com/eldemcan/wumpus">View the Project on GitHub <small>eldemcan/wumpus</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/eldemcan/wumpus/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/eldemcan/wumpus/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/eldemcan/wumpus">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h3>
+<a name="wumpus-game" class="anchor" href="#wumpus-game"><span class="octicon octicon-link"></span></a>Wumpus Game.</h3>
+
+<p>Hunt The Wumpus game project. It is a classic assignment given for students who works on AI. Hunt the Wumpus is an early video game, based on a simple hide and seek format featuring a mysterious monster (the Wumpus) that lurks deep inside a network of rooms.(wiki)</p>
+
+<p>You can watch the game from <a href="https://www.youtube.com/watch?v=tAy-uxBZBNQ">here</a>.</p>
+
+
+
+<h3>
+<a name="rules-of-game" class="anchor" href="#rules-of-game"><span class="octicon octicon-link"></span></a>Rules of game</h3>
+
+<p>The world contains a Wumpus, a pile of gold,bat and any number of pits. Each of these items is in a square of the grid. No square contains two of these items, some squares contain none of these items, and the items do not move. Goal of the robot is to get to the square with the gold and reach the exit, without running into the Wumpus or a pit. The robot has one arrow with which it can shoot and kill the Wumpus. If agent encounters with a bat, bat teleport agent into a random block. </p>
+
+<h4>
+<a name="game-board" class="anchor" href="#game-board"><span class="octicon octicon-link"></span></a>Game Board</h4>
+
+<p>Game board has the topology of a Mobius Strip shape which means one edge of the board connected with other edge. </p>
+
+<p><img src="http://mathworld.wolfram.com/images/eps-gif/MobiusStripArcLength_1000.gif" alt="Mobius Strip shape "></p>
+
+<h4>
+<a name="game-play" class="anchor" href="#game-play"><span class="octicon octicon-link"></span></a>Game Play</h4>
+
+<p>Agent should move from square to square, i.e. at all times the robot should be either stopped completely in a square, or should be crossing from one square into an adjacent square to the left, right, up, or down from it. There will be physical smells, breezes, or glitter. </p>
+
+<p>As agent explore it will encounter 3 types of rooms:</p>
+
+<p>Normal Rooms - These rooms are empty. 
+Cold Rooms - These indicate a pit is nearby.
+Smelly Rooms - These indicate the Wumpus is nearby.</p>
+
+<p>You can assume that the world is such that an infinitely smart being can solve the puzzle without guessing.(depending on the perceptions)</p>
+
+<h3>
+<a name="deployment" class="anchor" href="#deployment"><span class="octicon octicon-link"></span></a>Deployment</h3>
+
+<p>Project run environment </p>
+
+<p>windows 7 - javaSE 1.6 
+ubuntu 12 - javaSE 1.6</p>
+
+<ul>
+<li>
+<a href="http://agile.csc.ncsu.edu/SEMaterials/tutorials/import_export/">import </a> the project into eclipse </li>
+<li>setup class includes settings about game like table size bat size please be careful when you set numbers e.g don't put more pit than cave size etc. </li>
+<li>game class is main class of project if you like to play game by yourself switch off AI by changing ai_switch=true variable with false otherwise AI will play game itself and  show output on screen.</li>
+</ul><p>Hope enjoy the game !</p>
+
+<h3>
+<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+
+<p>if you have any questions please reach me via <a href="www.eldemcando.com">my personal page</a>.</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/eldemcan">eldemcan</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
