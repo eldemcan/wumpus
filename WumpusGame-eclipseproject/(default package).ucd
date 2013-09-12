@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="(default package)" size="1064,920" id="" metadata="uml2-1.0" initialized="true" scrolledX="9" scrolledY="176" tag="1000" key="32303037303533312D313030302057756D70757347616D653132303031343637302F63616E">
+  <children xsi:type="editmodel:ClassEditModel" name="AI" location="519,50" size="267,319" id="/AI" runTimeClassModel="wumpus_dead,posibble_location_marking,find_exit_method,game_over,MarkMap(),pitMeter(),aiMove(),filterPossibilities(Ljava.util.ArrayList;),treasureMeter(),path,back(),logic(),findExit(),AI(LAgent;LWumpus;),wumpusMeter(),displayAiMap()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="244,90">
+      <children xsi:type="editmodel:AttributeEditModel" name="game_over" id="/AI#game_over"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="path" id="/AI#path"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="posibble_location_marking" id="/AI#posibble_location_marking"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="wumpus_dead" id="/AI#wumpus_dead"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="find_exit_method" id="/AI#find_exit_method"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="106,180">
+      <children xsi:type="editmodel:MethodEditModel" name="AI" id="/AI#AI(LAgent;LWumpus;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="MarkMap" id="/AI#MarkMap()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="aiMove" id="/AI#aiMove()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="back" id="/AI#back()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="displayAiMap" id="/AI#displayAiMap()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="filterPossibilities" id="/AI#filterPossibilities(Ljava.util.ArrayList;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="findExit" id="/AI#findExit()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="logic" id="/AI#logic()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="pitMeter" id="/AI#pitMeter()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="wumpusMeter" id="/AI#wumpusMeter()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Game" location="801,446" size="80,67" id="/Game" runTimeClassModel="main([Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="52,18">
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="/Game#main([Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="GameBoard" location="263,446" size="144,193" id="/GameBoard" runTimeClassModel="InitializeTreasure(),GameBoard(),InitializePits(),displayGameBoard(),InitializeWumpus(),InitializeAgent(),blocks,InitializeBats(),InitializeExit()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="121,144">
+      <children xsi:type="editmodel:MethodEditModel" name="GameBoard" id="/GameBoard#GameBoard()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="InitializeAgent" id="/GameBoard#InitializeAgent()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="InitializeBats" id="/GameBoard#InitializeBats()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="InitializeExit" id="/GameBoard#InitializeExit()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="InitializePits" id="/GameBoard#InitializePits()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="InitializeTreasure" id="/GameBoard#InitializeTreasure()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="InitializeWumpus" id="/GameBoard#InitializeWumpus()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="displayGameBoard" id="/GameBoard#displayGameBoard()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Position" location="457,446" size="119,121" id="/Position" runTimeClassModel="dimension_y,Position(II),dimension_x,Position()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="96,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="dimension_x" id="/Position#dimension_x"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="dimension_y" id="/Position#dimension_y"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="67,36">
+      <children xsi:type="editmodel:MethodEditModel" name="Position" id="/Position#Position()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Position" id="/Position#Position(II)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Setup" location="626,446" size="125,111" id="/Setup" runTimeClassModel="bats,pits,board_size_x,board_size_y">
+    <children xsi:type="editmodel:CompartmentEditModel" size="102,72">
+      <children xsi:type="editmodel:AttributeEditModel" name="bats" id="/Setup#bats"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="board_size_x" id="/Setup#board_size_x"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="board_size_y" id="/Setup#board_size_y"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pits" id="/Setup#pits"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="AiBlock" location="62,797" size="138,103" id="/AiBlock" runTimeClassModel="been_here,AiBlock(LBlock;Z),AiBlock()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="115,18">
+      <children xsi:type="editmodel:AttributeEditModel" name="been_here" id="/AiBlock#been_here"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="65,36">
+      <children xsi:type="editmodel:MethodEditModel" name="AiBlock" id="/AiBlock#AiBlock()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="AiBlock" id="/AiBlock#AiBlock(LBlock;Z)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="/Block&lt;-/AiBlock" source="//@children.5" target="//@children.6" targetEnd="//@children.5/@sourceConnections.0/@children.1" sourceEnd="//@children.5/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="69,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="81,301"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.5/@sourceConnections.0" name="Block" location="50,446" size="163,301" id="/Block" runTimeClassModel="Block(),exit_exists,findNeighbours(LPosition;),breeze_exists,pit_exists,bat_exists,is_empty,glitteringness,treasure_exists,writeBlockMessage(),Block(LBlock;),smeel_exists,agent_exists,wumpus_exists">
+    <children xsi:type="editmodel:CompartmentEditModel" size="140,180">
+      <children xsi:type="editmodel:AttributeEditModel" name="agent_exists" id="/Block#agent_exists"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="bat_exists" id="/Block#bat_exists"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="breeze_exists" id="/Block#breeze_exists"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="exit_exists" id="/Block#exit_exists"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="glitteringness" id="/Block#glitteringness"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="is_empty" id="/Block#is_empty"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pit_exists" id="/Block#pit_exists"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="smeel_exists" id="/Block#smeel_exists"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="treasure_exists" id="/Block#treasure_exists"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="wumpus_exists" id="/Block#wumpus_exists"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="125,72">
+      <children xsi:type="editmodel:MethodEditModel" name="Block" id="/Block#Block(LBlock;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Block" id="/Block#Block()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="findNeighbours" id="/Block#findNeighbours(LPosition;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="writeBlockMessage" id="/Block#writeBlockMessage()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.10/@sourceConnections.0" name="Character" location="221,50" size="107,157" id="/Character" runTimeClassModel="Character(),Character(LPosition;),moveNorth(),moveLeft(),moveSouth(),moveRight()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="84,108">
+      <children xsi:type="editmodel:MethodEditModel" name="Character" id="/Character#Character(LPosition;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Character" id="/Character#Character()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="moveLeft" id="/Character#moveLeft()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="moveNorth" id="/Character#moveNorth()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="moveRight" id="/Character#moveRight()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="moveSouth" id="/Character#moveSouth()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Wumpus" location="366,257" size="103,103" id="/Wumpus" runTimeClassModel="Wumpus(LPosition;),Disturbed(),isMoviable(LPosition;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="80,54">
+      <children xsi:type="editmodel:MethodEditModel" name="Disturbed" id="/Wumpus#Disturbed()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Wumpus" id="/Wumpus#Wumpus(LPosition;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isMoviable" id="/Wumpus#isMoviable(LPosition;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="/Character&lt;-/Wumpus" source="//@children.8" target="//@children.10/@sourceConnections.0" targetEnd="//@children.8/@sourceConnections.0/@children.1" sourceEnd="//@children.8/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="51,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Bat" location="228,257" size="108,121" id="/Bat" runTimeClassModel="teleport([[LBlock;),Bat(),Bat(LPosition;),checkBlock(LBlock;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="85,72">
+      <children xsi:type="editmodel:MethodEditModel" name="Bat" id="/Bat#Bat(LPosition;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Bat" id="/Bat#Bat()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="checkBlock" id="/Bat#checkBlock(LBlock;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="teleport" id="/Bat#teleport([[LBlock;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" autoLocated="true" id="/Character&lt;-/Bat" source="//@children.9" target="//@children.10/@sourceConnections.0" targetEnd="//@children.9/@sourceConnections.0/@children.1" sourceEnd="//@children.9/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="54,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Agent" location="50,257" size="148,139" id="/Agent" runTimeClassModel="Agent(LPosition;),agentMove(Ljava.lang.String;),Shoot(Ljava.lang.String;),got_treasure,teleported">
+    <children xsi:type="editmodel:CompartmentEditModel" size="125,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="got_treasure" id="/Agent#got_treasure"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="teleported" id="/Agent#teleported"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="83,54">
+      <children xsi:type="editmodel:MethodEditModel" name="Agent" id="/Agent#Agent(LPosition;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Shoot" id="/Agent#Shoot(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="agentMove" id="/Agent#agentMove(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" targetConnections="//@children.9/@sourceConnections.0 //@children.8/@sourceConnections.0" autoLocated="true" id="/Character&lt;-/Agent" source="//@children.10" target="//@children.7" targetEnd="//@children.10/@sourceConnections.0/@children.1" sourceEnd="//@children.10/@sourceConnections.0/@children.0" connectionRouterKind="GeneralizationManhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="74,0" anchorKind="FixedAtEdge" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="53,157" anchorKind="FixedAtEdge"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=1;Product=eUML2" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>
